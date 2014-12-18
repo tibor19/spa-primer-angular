@@ -1,0 +1,218 @@
+﻿body, header, footer, content, nav, .container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background-image: url("/content/Images/bg-spaghetti.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+header {
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+    border: 1px dotted #725972;
+    background-image: url("/content/Images/masthead.gif");
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    width: 618px;
+    border: 1px dotted #d8bfd8;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+    padding: 10px;
+    border-right: 2px solid #725972;
+    border-bottom: 2px solid #725972;
+    border-left: 2px solid #725972;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+nav {
+    position: relative;
+    float: left;
+    width: 139px;
+    margin: 10px 0 10px 0;
+    border-right: 1px dotted #725972;
+}
+
+article {
+    float: left;
+    width: 470px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* Masthead Styles */
+.masthead h1 {
+    color: #fff;
+}
+
+.masthead h3 {
+    color: #402640;
+}
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted #dfb8df;
+    background-color: #dfb8df;
+}
+
+nav a {
+    color: #402640;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background-color: #dfb8df;
+}
+
+nav a:hover {
+        color: #402640;
+        text-decoration: none;
+        background-color: #fff;
+    }
+/* content Styles */
+.content h1, h2, h3, h4, h5, h6 {
+    color: #503750;
+}
+
+.ingredientsList{
+    list-style-type:none;
+    margin:5px;
+}
+
+.instructionsList {
+    list-style-type:decimal;
+    margin:15px;
+}
+
+.content img {
+    padding: 5px;
+    border: 1px solid #402640;
+}
+/* Footer Styles */
+footer p {
+    color: #808080;
+}
+
+footer a {
+    color: #503750;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #402640;
+    text-decoration: none;
+}
+
+a {
+    color: #402640;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #dfb8df;
+    text-decoration: underline;
+}
+
+.style_bold {
+    font-weight: bold;
+}
+
+.style_italic {
+    font-style: italic;
+}
+
+/* other styles */
+.box {
+    border: thin dashed #C0C0C0;
+    width: 460px;
+    margin-bottom: 10px;
+    height: 160px;
+}
+
+.leftboxcontent {
+    width: 220px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rightboximage {
+    width: 210px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rightboxcontent {
+    width: 220px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftboximage {
+    width: 210px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recipeImage {
+    height:130px;
+    width:200px;
+    border:1px solid Black;
+}
+
+.bigbox {
+    border: thin dashed #C0C0C0;
+    width: 430px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.recipelist {
+    margin-left: 0;
+}
+
+.recipelist li {
+    /*display: inline;*/
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: thin dashed #C0C0C0;
+    padding: 5px;
+    width: 200px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
